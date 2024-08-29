@@ -9,23 +9,23 @@
     exoblue = {
         hardware = {
             audio.enable = true;
-            bluetooth.enable = true;
-            printing.enable = true;
-            scanning.enable = true;
+            # bluetooth.enable = true;
+            # printing.enable = true;
+            # scanning.enable = true;
         };
         services = {
-            backups = {
-                enable = true;
-                paths = [
-                    "/home/*/.local/state/backups"
-                ];
-            };
-            geolocation.enable = true;
-            virtualization.enable = true;
+            # backups = {
+            #     enable = true;
+            #     paths = [
+            #         "/home/*/.local/state/backups"
+            #     ];
+            # };
+            # geolocation.enable = true;
+            # virtualization.enable = true;
         };
         suites = {
             common.enable = true;
-            gaming.enable = true;
+            # gaming.enable = true;
             gui.enable = true;
         };
     };
